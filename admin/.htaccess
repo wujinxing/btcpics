@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Admin"
+AuthUserFile /var/www/vhosts/btcpics.de/httpdocs/admin/.htpasswd
+Require valid-user
